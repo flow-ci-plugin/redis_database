@@ -1,0 +1,19 @@
+
+name: redis_database
+version: 0.0.1
+language: 
+description: Launch Redis database
+public: true
+tags:
+  - redis
+  - database
+inputs:
+outputs:
+  - name: FLOW_DATABASE_REDIS_VERSION
+  - name: FLOW_DATABASE_REDIS_IP
+  - name: FLOW_DATABASE_REDIS_PORT
+script_path: ./run.sh  
+  
+template: |  
+  
+  
